@@ -7,7 +7,7 @@
 body {
     padding: 1rem;
     height: 100vh;
-    background: url(/images/bg-bottom.svg), url(/images/bg-top.svg);
+    background: url(bg-bottom.svg), url(bg-top.svg);
     background-color: hsl(240, 78%, 98%);
     background-repeat: no-repeat;
     background-position: left bottom, right top;
@@ -251,7 +251,7 @@ button:hover {
 
 @media(max-width:414px) {
     body {
-        background: url(/images/bg-top.svg);
+        background: url(bg-top.svg);
         background-color: hsl(240, 78%, 98%);
         background-repeat: no-repeat;
         background-position: 200px 0%;
@@ -260,7 +260,7 @@ button:hover {
 
 @media(max-width:375px) {
     body {
-        background: url(/images/bg-top.svg);
+        background: url(bg-top.svg);
         background-color: hsl(240, 78%, 98%);
         background-repeat: no-repeat;
         background-position: 180px 0%;
